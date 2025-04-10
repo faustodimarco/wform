@@ -8,7 +8,7 @@ Wform is a lightweight, attribute-driven multi-step form solution for Webflow de
 
 1. [Installation](#installation)
 2. [Core Attributes](#core-attributes)
-   - [Enable SimpleFormly](#enable-simpleformly)
+   - [Enable Wform](#enable-Wform)
    - [Steps](#steps)
    - [Navigation Buttons](#navigation-buttons)
    - [Submit Button](#submit-button)
@@ -39,9 +39,9 @@ To use Wform in your Webflow project, add the following script to your project's
 
 ## Core Attributes
 
-### Enable SimpleFormly
+### Enable Wform
 
-To enable SimpleFormly on your form, add the `data-form="multistep"` attribute to the Form element:
+To enable Wform on your form, add the `data-form="multistep"` attribute to the Form element:
 
 ```html
 <form data-form="multistep">
@@ -107,7 +107,7 @@ For the submit button, use the Form Submit Button with the `data-form="submit-bt
 
 ### Required Fields
 
-SimpleFormly uses Webflow's native required field functionality. Simply mark fields as required in Webflow's designer:
+Wform uses Webflow's native required field functionality. Simply mark fields as required in Webflow's designer:
 
 ```html
 <input type="text" required>
@@ -117,7 +117,7 @@ The next button will be automatically disabled if required fields in the current
 
 ### Disabled States
 
-When a button is disabled (e.g., the next button when required fields are not filled), SimpleFormly adds a `disabled` class to the button. You can style this class in Webflow:
+When a button is disabled (e.g., the next button when required fields are not filled), Wform adds a `disabled` class to the button. You can style this class in Webflow:
 
 ```css
 .disabled {
@@ -148,7 +148,7 @@ To create progress indicators, add the following attributes:
 </div>
 ```
 
-SimpleFormly will automatically add the `current` class to the current step indicator and the `completed` class to completed step indicators.
+Wfrom will automatically add the `current` class to the current step indicator and the `completed` class to completed step indicators.
 
 ### Custom Progress Indicators
 
@@ -228,7 +228,7 @@ To automatically scroll to the top of the form when navigating between steps, ad
 
 ## Error Handling
 
-SimpleFormly displays validation errors in the console and adds the `error` class to invalid inputs. You can style this class in Webflow:
+Wform displays validation errors in the console and adds the `error` class to invalid inputs. You can style this class in Webflow:
 
 ```css
 .error {
