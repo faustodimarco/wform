@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Wform is a lightweight, attribute-driven multi-step form solution for Webflow. It allows you to create multi-step forms using simple data attributes without requiring any coding knowledge.
+Wform is a lightweight, attribute-driven multi-step form solution for Webflow developed by https://hubstic.com. It allows you to create multi-step forms using simple data attributes without requiring any coding knowledge.
 
 ## Table of Contents
 
