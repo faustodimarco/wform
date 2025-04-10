@@ -31,16 +31,10 @@ Wform is a lightweight, attribute-driven multi-step form solution for Webflow de
 
 ## Installation
 
-To use SimpleFormly in your Webflow project, add the following script to your project's custom code section:
+To use Wform in your Webflow project, add the following script to your project's custom code section:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/yourusername/simpleformly@latest/simpleformly.min.js"></script>
-```
-
-Alternatively, you can download the library and host it yourself:
-
-```html
-<script src="path/to/simpleformly.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/faustodimarco/wform@main/wform.min.js"></script>
 ```
 
 ## Core Attributes
