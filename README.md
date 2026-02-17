@@ -22,7 +22,6 @@ Wform is a lightweight, attribute-driven multi-step form solution for Webflow de
 5. [Additional Features](#additional-features)
    - [Step Text Display](#step-text-display)
    - [Intro Cards](#intro-cards)
-   - [Phone Number Formatting](#phone-number-formatting)
    - [Keyboard Shortcuts](#keyboard-shortcuts)
    - [Scroll to Top](#scroll-to-top)
 6. [Error Handling](#error-handling)
@@ -178,20 +177,6 @@ For steps without inputs (like intro or confirmation cards), add the `data-card=
 <div data-form="step" data-card="true">
   <!-- Intro content with no inputs -->
 </div>
-```
-
-### Phone Number Formatting
-
-To automatically format phone numbers, add the `data-phone-autoformat` attribute with a format pattern:
-
-```html
-<input type="tel" data-phone-autoformat="xxx-xxx-xxxx">
-```
-
-Format patterns use `x` to represent digits. You can use other characters for formatting:
-
-```html
-<input type="tel" data-phone-autoformat="(xxx) xxx-xxxx">
 ```
 
 ### Keyboard Shortcuts
